@@ -1,3 +1,4 @@
+@import "_search.scss";
 $font-main: "Asap", sans-serif;
 $font-second: "Josefin Slab", serif;
 html,
@@ -16,14 +17,14 @@ body {
 
 .header {
   font-size: 5.2rem;
-
   margin: 3rem auto;
   text-align: center;
 }
-.top-rated {
+.header-sub {
   margin: 1rem auto 2rem auto;
   text-align: center;
   font-size: 3.8rem;
+  text-decoration: underline;
 }
 .stock-grid {
   display: flex;

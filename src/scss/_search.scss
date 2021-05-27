@@ -1,0 +1,41 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  color: white;
+  font-weight: 500;
+}
+
+.search-header {
+  font-size: 4rem;
+  margin: 2rem auto 3rem auto;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.search-header-link,
+.search-header:visited,
+.search-header-link:link {
+  text-decoration: none;
+  color: yellow;
+}
+
+.search-header-link:hover {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin: 3rem auto;
+}
+
+.submit-button {
+  font-size: 2rem;
+  margin: 2rem;
+}

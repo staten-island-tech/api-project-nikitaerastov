@@ -5,7 +5,7 @@ const key = "e55b052f2549499d90d7516266234395";
 const query = async function () {
   try {
     const response = await fetch(
-      "https://api.twelvedata.com/stocks?exchange=NASDAQ&type=Common-Stock"
+      `https://api.twelvedata.com/stocks?exchange=NASDAQ&type=Common-Stock`
     );
     const data = await response.json();
     data.data.forEach((stock) => {
